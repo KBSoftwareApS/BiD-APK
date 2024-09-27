@@ -4,7 +4,7 @@ This repository contains APK files for our application. These APKs are separated
 
 ## 1. Master Folder
 - **Folder Name:** `master`
-- **Purpose:** This folder contains the APK files that are linked to the production environment. These APKs represent stable, fully tested versions that are automatically deployed to clients through the app.
+- **Purpose:** This folder contains the APK files that are linked to the production environment. These APKs represent stable, fully tested versions that are automatically deployed to clients through BiD.
 - **Usage:** The application is configured via `appsettings.json` to automatically use the APKs from this folder in production environments.
 
 ## 2. Demo Folder
