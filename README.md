@@ -8,10 +8,8 @@ This repository contains the APK files distributed through BiD. The APKs are sep
 | --- | --- | --- | --- |
 | Dev | `dev` | KBS `develop` branch | Contains the latest development builds for internal testing. These builds may include work that is still in progress. |
 | Demo | `demo` | KBS `main` branch | Contains builds from the main development line for demonstrations and testing against the demo environment. |
-| Master | `master` | Tagged release version | Contains release versions deployed to each client's acceptance-test environment. A version in `master` is available for client validation but is not necessarily approved for production. |
+| Master | `master` | Tagged release version | Contains release versions deployed to the client's acceptance-test environment. A version in `master` is available for client validation but is not necessarily approved for production. |
 | Production | `prod` | Client-approved stable version | Contains only the stable release candidate approved by the client for production use. The current production version is **V5.9.0**. |
-
-The application uses its `appsettings.json` configuration to select the APK from the folder associated with the target environment.
 
 ## Release pipeline rules
 
